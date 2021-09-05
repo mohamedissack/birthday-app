@@ -1,0 +1,16 @@
+body {
+    background-color: #7DCEA0;
+    font-size: x-large;
+}
+
+.flex {
+    text-align: center;
+}
+.p{
+    text-align:center;
+    font-size:30px;
+    padding-top:20px;
+}
+.display-4 {
+    text-align: center;
+}
