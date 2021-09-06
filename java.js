@@ -1,4 +1,4 @@
-var submission = function () {
+function submission() {
     var daysOfTheWeek = [
         "Sunday",
         "Monday",
@@ -32,12 +32,25 @@ var submission = function () {
     var month = parseInt(document.getElementById("month").value);
     var year = parseInt(document.getElementById("year").value);
     var day = parseInt(document.getElementById("day").value);
-    var name = (document.getElementById("name").value);
+    var name = document.getElementById("name").value;
     var date0fbirth = new Date(year + "/" + month + "/" + day);
     var results = date0fbirth.getDay();
     var output = document.getElementById("output");
-    var male = document.getElementById("male")
-    var female = document.getElementById("female")
+    var male = document.getElementById("male").value
+
+    var female = document.getElementById("female").value
+    if(!month){
+        alert("month cannot be empty");
+        return false;
+    }
+    if(!year){
+        alert("year  cannot be empty");
+        return false;
+    }
+    if(!day){
+        alert("day cannot be empty");
+        return false;
+    }
 
     if (month == "" && year == "" && day == "" && name == "") {
         alert("Please Enter you credentials");
