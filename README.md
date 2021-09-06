@@ -5,3 +5,5 @@ This is  a web application that takes a user's birthday information and calculat
 
 ## Demo
 Here is a working live demo:
+## Mobile support
+The  website is compatible with devices of all sizes 
