@@ -28,6 +28,7 @@ var submission = function () {
         "Afua",
         "Ama"
     ];
+
     var month = parseInt(document.getElementById("month").value);
     var year = parseInt(document.getElementById("year").value);
     var day = parseInt(document.getElementById("day").value);
